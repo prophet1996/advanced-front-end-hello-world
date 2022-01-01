@@ -1,0 +1,16 @@
+{
+    "presets": [
+        [
+            "next/babel", // 👈 Use Next's preset until #7385 is released
+            {
+                "preset-react": {
+                    "runtime": "automatic",
+                    "importSource": "@emotion/react"
+                }
+            }
+        ]
+    ],
+    "plugins": [
+        "@emotion/babel-plugin"
+    ]
+}
